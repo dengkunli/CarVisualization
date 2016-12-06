@@ -1,5 +1,4 @@
-[
-  {
+var data = [{
     "ID": "1",
     "Car": "Chevrolet Chevelle Malibu",
     "MPG": "18.0",
@@ -10,8 +9,7 @@
     "Acceleration": "12.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "2",
     "Car": "Buick Skylark 320",
     "MPG": "15.0",
@@ -22,8 +20,7 @@
     "Acceleration": "11.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "3",
     "Car": "Plymouth Satellite",
     "MPG": "18.0",
@@ -34,8 +31,7 @@
     "Acceleration": "11.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "4",
     "Car": "AMC Rebel SST",
     "MPG": "16.0",
@@ -46,8 +42,7 @@
     "Acceleration": "12.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "5",
     "Car": "Ford Torino",
     "MPG": "17.0",
@@ -58,8 +53,7 @@
     "Acceleration": "10.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "6",
     "Car": "Ford Galaxie 500",
     "MPG": "15.0",
@@ -70,8 +64,7 @@
     "Acceleration": "10.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "7",
     "Car": "Chevrolet Impala",
     "MPG": "14.0",
@@ -82,8 +75,7 @@
     "Acceleration": "9.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "8",
     "Car": "Plymouth Fury iii",
     "MPG": "14.0",
@@ -94,8 +86,7 @@
     "Acceleration": "8.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "9",
     "Car": "Pontiac Catalina",
     "MPG": "14.0",
@@ -106,8 +97,7 @@
     "Acceleration": "10.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "10",
     "Car": "AMC Ambassador DPL",
     "MPG": "15.0",
@@ -118,8 +108,7 @@
     "Acceleration": "8.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "11",
     "Car": "Citroen DS-21 Pallas",
     "MPG": "0",
@@ -130,8 +119,7 @@
     "Acceleration": "17.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "12",
     "Car": "Chevrolet Chevelle Concours (sw)",
     "MPG": "0",
@@ -142,8 +130,7 @@
     "Acceleration": "11.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "13",
     "Car": "Ford Torino (sw)",
     "MPG": "0",
@@ -154,8 +141,7 @@
     "Acceleration": "11.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "14",
     "Car": "Plymouth Satellite (sw)",
     "MPG": "0",
@@ -166,8 +152,7 @@
     "Acceleration": "10.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "15",
     "Car": "AMC Rebel SST (sw)",
     "MPG": "0",
@@ -178,8 +163,7 @@
     "Acceleration": "11.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "16",
     "Car": "Dodge Challenger SE",
     "MPG": "15.0",
@@ -190,8 +174,7 @@
     "Acceleration": "10.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "17",
     "Car": "Plymouth 'Cuda 340",
     "MPG": "14.0",
@@ -202,8 +185,7 @@
     "Acceleration": "8.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "18",
     "Car": "Ford Mustang Boss 302",
     "MPG": "0",
@@ -214,8 +196,7 @@
     "Acceleration": "8.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "19",
     "Car": "Chevrolet Monte Carlo",
     "MPG": "15.0",
@@ -226,8 +207,7 @@
     "Acceleration": "9.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "20",
     "Car": "Buick Estate Wagon (sw)",
     "MPG": "14.0",
@@ -238,8 +218,7 @@
     "Acceleration": "10.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "21",
     "Car": "Toyota Corolla Mark ii",
     "MPG": "24.0",
@@ -250,8 +229,7 @@
     "Acceleration": "15.0",
     "Model": "70",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "22",
     "Car": "Plymouth Duster",
     "MPG": "22.0",
@@ -262,8 +240,7 @@
     "Acceleration": "15.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "23",
     "Car": "AMC Hornet",
     "MPG": "18.0",
@@ -274,8 +251,7 @@
     "Acceleration": "15.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "24",
     "Car": "Ford Maverick",
     "MPG": "21.0",
@@ -286,8 +262,7 @@
     "Acceleration": "16.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "25",
     "Car": "Datsun PL510",
     "MPG": "27.0",
@@ -298,8 +273,7 @@
     "Acceleration": "14.5",
     "Model": "70",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "26",
     "Car": "Volkswagen 1131 Deluxe Sedan",
     "MPG": "26.0",
@@ -310,8 +284,7 @@
     "Acceleration": "20.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "27",
     "Car": "Peugeot 504",
     "MPG": "25.0",
@@ -322,8 +295,7 @@
     "Acceleration": "17.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "28",
     "Car": "Audi 100 LS",
     "MPG": "24.0",
@@ -334,8 +306,7 @@
     "Acceleration": "14.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "29",
     "Car": "Saab 99e",
     "MPG": "25.0",
@@ -346,8 +317,7 @@
     "Acceleration": "17.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "30",
     "Car": "BMW 2002",
     "MPG": "26.0",
@@ -358,8 +328,7 @@
     "Acceleration": "12.5",
     "Model": "70",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "31",
     "Car": "AMC Gremlin",
     "MPG": "21.0",
@@ -370,8 +339,7 @@
     "Acceleration": "15.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "32",
     "Car": "Ford F250",
     "MPG": "10.0",
@@ -382,8 +350,7 @@
     "Acceleration": "14.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "33",
     "Car": "Chevy C20",
     "MPG": "10.0",
@@ -394,8 +361,7 @@
     "Acceleration": "15.0",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "34",
     "Car": "Dodge D200",
     "MPG": "11.0",
@@ -406,8 +372,7 @@
     "Acceleration": "13.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "35",
     "Car": "Hi 1200D",
     "MPG": "9.0",
@@ -418,8 +383,7 @@
     "Acceleration": "18.5",
     "Model": "70",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "36",
     "Car": "Datsun PL510",
     "MPG": "27.0",
@@ -430,8 +394,7 @@
     "Acceleration": "14.5",
     "Model": "71",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "37",
     "Car": "Chevrolet Vega 2300",
     "MPG": "28.0",
@@ -442,8 +405,7 @@
     "Acceleration": "15.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "38",
     "Car": "Toyota Corolla",
     "MPG": "25.0",
@@ -454,8 +416,7 @@
     "Acceleration": "14.0",
     "Model": "71",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "39",
     "Car": "Ford Pinto",
     "MPG": "25.0",
@@ -466,8 +427,7 @@
     "Acceleration": "19.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "40",
     "Car": "Volkswagen Super Beetle 117",
     "MPG": "0",
@@ -478,8 +438,7 @@
     "Acceleration": "20.0",
     "Model": "71",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "41",
     "Car": "AMC Gremlin",
     "MPG": "19.0",
@@ -490,8 +449,7 @@
     "Acceleration": "13.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "42",
     "Car": "Plymouth Satellite Custom",
     "MPG": "16.0",
@@ -502,8 +460,7 @@
     "Acceleration": "15.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "43",
     "Car": "Chevrolet Chevelle Malibu",
     "MPG": "17.0",
@@ -514,8 +471,7 @@
     "Acceleration": "15.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "44",
     "Car": "Ford Torino 500",
     "MPG": "19.0",
@@ -526,8 +482,7 @@
     "Acceleration": "15.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "45",
     "Car": "AMC Matador",
     "MPG": "18.0",
@@ -538,8 +493,7 @@
     "Acceleration": "15.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "46",
     "Car": "Chevrolet Impala",
     "MPG": "14.0",
@@ -550,8 +504,7 @@
     "Acceleration": "12.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "47",
     "Car": "Pontiac Catalina Brougham",
     "MPG": "14.0",
@@ -562,8 +515,7 @@
     "Acceleration": "11.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "48",
     "Car": "Ford Galaxie 500",
     "MPG": "14.0",
@@ -574,8 +526,7 @@
     "Acceleration": "13.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "49",
     "Car": "Plymouth Fury iii",
     "MPG": "14.0",
@@ -586,8 +537,7 @@
     "Acceleration": "13.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "50",
     "Car": "Dodge Monaco (sw)",
     "MPG": "12.0",
@@ -598,8 +548,7 @@
     "Acceleration": "11.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "51",
     "Car": "Ford Country Squire (sw)",
     "MPG": "13.0",
@@ -610,8 +559,7 @@
     "Acceleration": "12.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "52",
     "Car": "Pontiac Safari (sw)",
     "MPG": "13.0",
@@ -622,8 +570,7 @@
     "Acceleration": "12.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "53",
     "Car": "AMC Hornet Sportabout (sw)",
     "MPG": "18.0",
@@ -634,8 +581,7 @@
     "Acceleration": "13.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "54",
     "Car": "Chevrolet Vega (sw)",
     "MPG": "22.0",
@@ -646,8 +592,7 @@
     "Acceleration": "19.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "55",
     "Car": "Pontiac Firebird",
     "MPG": "19.0",
@@ -658,8 +603,7 @@
     "Acceleration": "15.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "56",
     "Car": "Ford Mustang",
     "MPG": "18.0",
@@ -670,8 +614,7 @@
     "Acceleration": "14.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "57",
     "Car": "Mercury Capri 2000",
     "MPG": "23.0",
@@ -682,8 +625,7 @@
     "Acceleration": "14.0",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "58",
     "Car": "Opel 1900",
     "MPG": "28.0",
@@ -694,8 +636,7 @@
     "Acceleration": "14.0",
     "Model": "71",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "59",
     "Car": "Peugeot 304",
     "MPG": "30.0",
@@ -706,8 +647,7 @@
     "Acceleration": "19.5",
     "Model": "71",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "60",
     "Car": "Fiat 124B",
     "MPG": "30.0",
@@ -718,8 +658,7 @@
     "Acceleration": "14.5",
     "Model": "71",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "61",
     "Car": "Toyota Corolla 1200",
     "MPG": "31.0",
@@ -730,8 +669,7 @@
     "Acceleration": "19.0",
     "Model": "71",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "62",
     "Car": "Datsun 1200",
     "MPG": "35.0",
@@ -742,8 +680,7 @@
     "Acceleration": "18.0",
     "Model": "71",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "63",
     "Car": "Volkswagen Model 111",
     "MPG": "27.0",
@@ -754,8 +691,7 @@
     "Acceleration": "19.0",
     "Model": "71",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "64",
     "Car": "Plymouth Cricket",
     "MPG": "26.0",
@@ -766,8 +702,7 @@
     "Acceleration": "20.5",
     "Model": "71",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "65",
     "Car": "Toyota Corolla Hardtop",
     "MPG": "24.0",
@@ -778,8 +713,7 @@
     "Acceleration": "15.5",
     "Model": "72",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "66",
     "Car": "Dodge Colt Hardtop",
     "MPG": "25.0",
@@ -790,8 +724,7 @@
     "Acceleration": "17.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "67",
     "Car": "Volkswagen Type 3",
     "MPG": "23.0",
@@ -802,8 +735,7 @@
     "Acceleration": "23.5",
     "Model": "72",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "68",
     "Car": "Chevrolet Vega",
     "MPG": "20.0",
@@ -814,8 +746,7 @@
     "Acceleration": "19.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "69",
     "Car": "Ford Pinto Runabout",
     "MPG": "21.0",
@@ -826,8 +757,7 @@
     "Acceleration": "16.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "70",
     "Car": "Chevrolet Impala",
     "MPG": "13.0",
@@ -838,8 +768,7 @@
     "Acceleration": "12.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "71",
     "Car": "Pontiac Catalina",
     "MPG": "14.0",
@@ -850,8 +779,7 @@
     "Acceleration": "12.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "72",
     "Car": "Plymouth Fury III",
     "MPG": "15.0",
@@ -862,8 +790,7 @@
     "Acceleration": "13.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "73",
     "Car": "Ford Galaxie 500",
     "MPG": "14.0",
@@ -874,8 +801,7 @@
     "Acceleration": "13.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "74",
     "Car": "AMC Ambassador SST",
     "MPG": "17.0",
@@ -886,8 +812,7 @@
     "Acceleration": "11.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "75",
     "Car": "Mercury Marquis",
     "MPG": "11.0",
@@ -898,8 +823,7 @@
     "Acceleration": "11.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "76",
     "Car": "Buick LeSabre Custom",
     "MPG": "13.0",
@@ -910,8 +834,7 @@
     "Acceleration": "13.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "77",
     "Car": "Oldsmobile Delta 88 Royale",
     "MPG": "12.0",
@@ -922,8 +845,7 @@
     "Acceleration": "13.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "78",
     "Car": "Chrysler Newport Royal",
     "MPG": "13.0",
@@ -934,8 +856,7 @@
     "Acceleration": "12.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "79",
     "Car": "Mazda RX2 Coupe",
     "MPG": "19.0",
@@ -946,8 +867,7 @@
     "Acceleration": "13.5",
     "Model": "72",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "80",
     "Car": "AMC Matador (sw)",
     "MPG": "15.0",
@@ -958,8 +878,7 @@
     "Acceleration": "12.5",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "81",
     "Car": "Chevrolet Chevelle Concours (sw)",
     "MPG": "13.0",
@@ -970,8 +889,7 @@
     "Acceleration": "14.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "82",
     "Car": "Ford Gran Torino (sw)",
     "MPG": "13.0",
@@ -982,8 +900,7 @@
     "Acceleration": "16.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "83",
     "Car": "Plymouth Satellite Custom (sw)",
     "MPG": "14.0",
@@ -994,8 +911,7 @@
     "Acceleration": "14.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "84",
     "Car": "Volvo 145e (sw)",
     "MPG": "18.0",
@@ -1006,8 +922,7 @@
     "Acceleration": "14.5",
     "Model": "72",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "85",
     "Car": "Volkswagen 411 (sw)",
     "MPG": "22.0",
@@ -1018,8 +933,7 @@
     "Acceleration": "18.0",
     "Model": "72",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "86",
     "Car": "Peugeot 504 (sw)",
     "MPG": "21.0",
@@ -1030,8 +944,7 @@
     "Acceleration": "19.5",
     "Model": "72",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "87",
     "Car": "Renault 12 (sw)",
     "MPG": "26.0",
@@ -1042,8 +955,7 @@
     "Acceleration": "18.0",
     "Model": "72",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "88",
     "Car": "Ford Pinto (sw)",
     "MPG": "22.0",
@@ -1054,8 +966,7 @@
     "Acceleration": "16.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "89",
     "Car": "Datsun 510 (sw)",
     "MPG": "28.0",
@@ -1066,8 +977,7 @@
     "Acceleration": "17.0",
     "Model": "72",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "90",
     "Car": "Toyota Corolla Mark II (sw)",
     "MPG": "23.0",
@@ -1078,8 +988,7 @@
     "Acceleration": "14.5",
     "Model": "72",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "91",
     "Car": "Dodge Colt (sw)",
     "MPG": "28.0",
@@ -1090,8 +999,7 @@
     "Acceleration": "15.0",
     "Model": "72",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "92",
     "Car": "Toyota Corolla 1600 (sw)",
     "MPG": "27.0",
@@ -1102,8 +1010,7 @@
     "Acceleration": "16.5",
     "Model": "72",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "93",
     "Car": "Buick Century 350",
     "MPG": "13.0",
@@ -1114,8 +1021,7 @@
     "Acceleration": "13.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "94",
     "Car": "AMC Matador",
     "MPG": "14.0",
@@ -1126,8 +1032,7 @@
     "Acceleration": "11.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "95",
     "Car": "Chevrolet Malibu",
     "MPG": "13.0",
@@ -1138,8 +1043,7 @@
     "Acceleration": "13.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "96",
     "Car": "Ford Gran Torino",
     "MPG": "14.0",
@@ -1150,8 +1054,7 @@
     "Acceleration": "14.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "97",
     "Car": "Dodge Coronet Custom",
     "MPG": "15.0",
@@ -1162,8 +1065,7 @@
     "Acceleration": "12.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "98",
     "Car": "Mercury Marquis Brougham",
     "MPG": "12.0",
@@ -1174,8 +1076,7 @@
     "Acceleration": "11.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "99",
     "Car": "Chevrolet Caprice Classic",
     "MPG": "13.0",
@@ -1186,8 +1087,7 @@
     "Acceleration": "12.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "100",
     "Car": "Ford LTD",
     "MPG": "13.0",
@@ -1198,8 +1098,7 @@
     "Acceleration": "13.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "101",
     "Car": "Plymouth Fury Gran Sedan",
     "MPG": "14.0",
@@ -1210,8 +1109,7 @@
     "Acceleration": "14.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "102",
     "Car": "Chrysler New Yorker Brougham",
     "MPG": "13.0",
@@ -1222,8 +1120,7 @@
     "Acceleration": "11.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "103",
     "Car": "Buick Electra 225 Custom",
     "MPG": "12.0",
@@ -1234,8 +1131,7 @@
     "Acceleration": "11.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "104",
     "Car": "AMC Ambassador Brougham",
     "MPG": "13.0",
@@ -1246,8 +1142,7 @@
     "Acceleration": "11.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "105",
     "Car": "Plymouth Valiant",
     "MPG": "18.0",
@@ -1258,8 +1153,7 @@
     "Acceleration": "16.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "106",
     "Car": "Chevrolet Nova Custom",
     "MPG": "16.0",
@@ -1270,8 +1164,7 @@
     "Acceleration": "18.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "107",
     "Car": "AMC Hornet",
     "MPG": "18.0",
@@ -1282,8 +1175,7 @@
     "Acceleration": "16.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "108",
     "Car": "Ford Maverick",
     "MPG": "18.0",
@@ -1294,8 +1186,7 @@
     "Acceleration": "16.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "109",
     "Car": "Plymouth Duster",
     "MPG": "23.0",
@@ -1306,8 +1197,7 @@
     "Acceleration": "16.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "110",
     "Car": "Volkswagen Super Beetle",
     "MPG": "26.0",
@@ -1318,8 +1208,7 @@
     "Acceleration": "21.0",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "111",
     "Car": "Chevrolet Impala",
     "MPG": "11.0",
@@ -1330,8 +1219,7 @@
     "Acceleration": "14.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "112",
     "Car": "Ford Country",
     "MPG": "12.0",
@@ -1342,8 +1230,7 @@
     "Acceleration": "12.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "113",
     "Car": "Plymouth Custom Suburb",
     "MPG": "13.0",
@@ -1354,8 +1241,7 @@
     "Acceleration": "13.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "114",
     "Car": "Oldsmobile Vista Cruiser",
     "MPG": "12.0",
@@ -1366,8 +1252,7 @@
     "Acceleration": "12.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "115",
     "Car": "AMC Gremlin",
     "MPG": "18.0",
@@ -1378,8 +1263,7 @@
     "Acceleration": "15.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "116",
     "Car": "Toyota Camry",
     "MPG": "20.0",
@@ -1390,8 +1274,7 @@
     "Acceleration": "19.0",
     "Model": "73",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "117",
     "Car": "Chevrolet Vega",
     "MPG": "21.0",
@@ -1402,8 +1285,7 @@
     "Acceleration": "19.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "118",
     "Car": "Datsun 610",
     "MPG": "22.0",
@@ -1414,8 +1296,7 @@
     "Acceleration": "16.5",
     "Model": "73",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "119",
     "Car": "Mazda RX3",
     "MPG": "18.0",
@@ -1426,8 +1307,7 @@
     "Acceleration": "13.5",
     "Model": "73",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "120",
     "Car": "Ford Pinto",
     "MPG": "19.0",
@@ -1438,8 +1318,7 @@
     "Acceleration": "18.5",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "121",
     "Car": "Mercury Capri v6",
     "MPG": "21.0",
@@ -1450,8 +1329,7 @@
     "Acceleration": "14.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "122",
     "Car": "Fiat 124 Sport Coupe",
     "MPG": "26.0",
@@ -1462,8 +1340,7 @@
     "Acceleration": "15.5",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "123",
     "Car": "Chevrolet Monte Carlo S",
     "MPG": "15.0",
@@ -1474,8 +1351,7 @@
     "Acceleration": "13.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "124",
     "Car": "Pontiac Grand Prix",
     "MPG": "16.0",
@@ -1486,8 +1362,7 @@
     "Acceleration": "9.50",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "125",
     "Car": "Fiat 128",
     "MPG": "29.0",
@@ -1498,8 +1373,7 @@
     "Acceleration": "19.5",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "126",
     "Car": "Opel Manta",
     "MPG": "24.0",
@@ -1510,8 +1384,7 @@
     "Acceleration": "15.5",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "127",
     "Car": "Audi 100LS",
     "MPG": "20.0",
@@ -1522,8 +1395,7 @@
     "Acceleration": "14.0",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "128",
     "Car": "Volvo 144ea",
     "MPG": "19.0",
@@ -1534,8 +1406,7 @@
     "Acceleration": "15.5",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "129",
     "Car": "Dodge Dart Custom",
     "MPG": "15.0",
@@ -1546,8 +1417,7 @@
     "Acceleration": "11.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "130",
     "Car": "Saab 99le",
     "MPG": "24.0",
@@ -1558,8 +1428,7 @@
     "Acceleration": "14.0",
     "Model": "73",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "131",
     "Car": "Toyota Mark II",
     "MPG": "20.0",
@@ -1570,8 +1439,7 @@
     "Acceleration": "13.5",
     "Model": "73",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "132",
     "Car": "Oldsmobile Omega",
     "MPG": "11.0",
@@ -1582,8 +1450,7 @@
     "Acceleration": "11.0",
     "Model": "73",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "133",
     "Car": "Plymouth Duster",
     "MPG": "20.0",
@@ -1594,8 +1461,7 @@
     "Acceleration": "16.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "134",
     "Car": "Ford Maverick",
     "MPG": "21.0",
@@ -1606,8 +1472,7 @@
     "Acceleration": "17.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "135",
     "Car": "AMC Hornet",
     "MPG": "19.0",
@@ -1618,8 +1483,7 @@
     "Acceleration": "16.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "136",
     "Car": "Chevrolet Nova",
     "MPG": "15.0",
@@ -1630,8 +1494,7 @@
     "Acceleration": "17.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "137",
     "Car": "Datsun B210",
     "MPG": "31.0",
@@ -1642,8 +1505,7 @@
     "Acceleration": "19.0",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "138",
     "Car": "Ford Pinto",
     "MPG": "26.0",
@@ -1654,8 +1516,7 @@
     "Acceleration": "16.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "139",
     "Car": "Toyota Corolla 1200",
     "MPG": "32.0",
@@ -1666,8 +1527,7 @@
     "Acceleration": "21.0",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "140",
     "Car": "Chevrolet Vega",
     "MPG": "25.0",
@@ -1678,8 +1538,7 @@
     "Acceleration": "17.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "141",
     "Car": "Chevrolet Chevelle Malibu Classic",
     "MPG": "16.0",
@@ -1690,8 +1549,7 @@
     "Acceleration": "17.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "142",
     "Car": "AMC Matador",
     "MPG": "16.0",
@@ -1702,8 +1560,7 @@
     "Acceleration": "18.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "143",
     "Car": "Plymouth Satellite Sebring",
     "MPG": "18.0",
@@ -1714,8 +1571,7 @@
     "Acceleration": "16.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "144",
     "Car": "Ford Gran Torino",
     "MPG": "16.0",
@@ -1726,8 +1582,7 @@
     "Acceleration": "14.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "145",
     "Car": "Buick Century Luxus (sw)",
     "MPG": "13.0",
@@ -1738,8 +1593,7 @@
     "Acceleration": "14.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "146",
     "Car": "Dodge Coronet Custom (sw)",
     "MPG": "14.0",
@@ -1750,8 +1604,7 @@
     "Acceleration": "13.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "147",
     "Car": "Ford Gran Torino (sw)",
     "MPG": "14.0",
@@ -1762,8 +1615,7 @@
     "Acceleration": "16.0",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "148",
     "Car": "AMC Matador (sw)",
     "MPG": "14.0",
@@ -1774,8 +1626,7 @@
     "Acceleration": "15.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "149",
     "Car": "Audi Fox",
     "MPG": "29.0",
@@ -1786,8 +1637,7 @@
     "Acceleration": "16.5",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "150",
     "Car": "Volkswagen Dasher",
     "MPG": "26.0",
@@ -1798,8 +1648,7 @@
     "Acceleration": "15.5",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "151",
     "Car": "Opel Manta",
     "MPG": "26.0",
@@ -1810,8 +1659,7 @@
     "Acceleration": "14.5",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "152",
     "Car": "Toyota Corolla",
     "MPG": "31.0",
@@ -1822,8 +1670,7 @@
     "Acceleration": "16.5",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "153",
     "Car": "Datsun 710",
     "MPG": "32.0",
@@ -1834,8 +1681,7 @@
     "Acceleration": "19.0",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "154",
     "Car": "Dodge Colt",
     "MPG": "28.0",
@@ -1846,8 +1692,7 @@
     "Acceleration": "14.5",
     "Model": "74",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "155",
     "Car": "Fiat 128",
     "MPG": "24.0",
@@ -1858,8 +1703,7 @@
     "Acceleration": "15.5",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "156",
     "Car": "Fiat 124 TC",
     "MPG": "26.0",
@@ -1870,8 +1714,7 @@
     "Acceleration": "14.0",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "157",
     "Car": "Honda Civic",
     "MPG": "24.0",
@@ -1882,8 +1725,7 @@
     "Acceleration": "15.0",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "158",
     "Car": "Subaru",
     "MPG": "26.0",
@@ -1894,8 +1736,7 @@
     "Acceleration": "15.5",
     "Model": "74",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "159",
     "Car": "Fiat x1.9",
     "MPG": "31.0",
@@ -1906,8 +1747,7 @@
     "Acceleration": "16.0",
     "Model": "74",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "160",
     "Car": "Plymouth Valiant Custom",
     "MPG": "19.0",
@@ -1918,8 +1758,7 @@
     "Acceleration": "16.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "161",
     "Car": "Chevrolet Nova",
     "MPG": "18.0",
@@ -1930,8 +1769,7 @@
     "Acceleration": "16.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "162",
     "Car": "Mercury Monarch",
     "MPG": "15.0",
@@ -1942,8 +1780,7 @@
     "Acceleration": "21.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "163",
     "Car": "Ford Maverick",
     "MPG": "15.0",
@@ -1954,8 +1791,7 @@
     "Acceleration": "19.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "164",
     "Car": "Pontiac Catalina",
     "MPG": "16.0",
@@ -1966,8 +1802,7 @@
     "Acceleration": "11.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "165",
     "Car": "Chevrolet Bel Air",
     "MPG": "15.0",
@@ -1978,8 +1813,7 @@
     "Acceleration": "14.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "166",
     "Car": "Plymouth Grand Fury",
     "MPG": "16.0",
@@ -1990,8 +1824,7 @@
     "Acceleration": "14.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "167",
     "Car": "Ford LTD",
     "MPG": "14.0",
@@ -2002,8 +1835,7 @@
     "Acceleration": "13.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "168",
     "Car": "Buick Century",
     "MPG": "17.0",
@@ -2014,8 +1846,7 @@
     "Acceleration": "21.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "169",
     "Car": "Chevrolete Chevelle Malibu",
     "MPG": "16.0",
@@ -2026,8 +1857,7 @@
     "Acceleration": "18.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "170",
     "Car": "AMC Matador",
     "MPG": "15.0",
@@ -2038,8 +1868,7 @@
     "Acceleration": "19.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "171",
     "Car": "Plymouth Fury",
     "MPG": "18.0",
@@ -2050,8 +1879,7 @@
     "Acceleration": "19.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "172",
     "Car": "Buick Skyhawk",
     "MPG": "21.0",
@@ -2062,8 +1890,7 @@
     "Acceleration": "15.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "173",
     "Car": "Chevrolet Monza 2+2",
     "MPG": "20.0",
@@ -2074,8 +1901,7 @@
     "Acceleration": "13.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "174",
     "Car": "Ford Mustang II",
     "MPG": "13.0",
@@ -2086,8 +1912,7 @@
     "Acceleration": "12.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "175",
     "Car": "Toyota Corolla",
     "MPG": "29.0",
@@ -2098,8 +1923,7 @@
     "Acceleration": "16.0",
     "Model": "75",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "176",
     "Car": "Ford Pinto",
     "MPG": "23.0",
@@ -2110,8 +1934,7 @@
     "Acceleration": "17.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "177",
     "Car": "AMC Gremlin",
     "MPG": "20.0",
@@ -2122,8 +1945,7 @@
     "Acceleration": "16.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "178",
     "Car": "Pontiac Astro",
     "MPG": "23.0",
@@ -2134,8 +1956,7 @@
     "Acceleration": "18.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "179",
     "Car": "Toyota Corolla",
     "MPG": "24.0",
@@ -2146,8 +1967,7 @@
     "Acceleration": "13.5",
     "Model": "75",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "180",
     "Car": "Volkswagen Dasher",
     "MPG": "25.0",
@@ -2158,8 +1978,7 @@
     "Acceleration": "16.5",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "181",
     "Car": "Datsun 710",
     "MPG": "24.0",
@@ -2170,8 +1989,7 @@
     "Acceleration": "17.0",
     "Model": "75",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "182",
     "Car": "Ford Pinto",
     "MPG": "18.0",
@@ -2182,8 +2000,7 @@
     "Acceleration": "14.5",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "183",
     "Car": "Volkswagen Rabbit",
     "MPG": "29.0",
@@ -2194,8 +2011,7 @@
     "Acceleration": "14.0",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "184",
     "Car": "AMC Pacer",
     "MPG": "19.0",
@@ -2206,8 +2022,7 @@
     "Acceleration": "17.0",
     "Model": "75",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "185",
     "Car": "Audi 100LS",
     "MPG": "23.0",
@@ -2218,8 +2033,7 @@
     "Acceleration": "15.0",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "186",
     "Car": "Peugeot 504",
     "MPG": "23.0",
@@ -2230,8 +2044,7 @@
     "Acceleration": "17.0",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "187",
     "Car": "Volvo 244DL",
     "MPG": "22.0",
@@ -2242,8 +2055,7 @@
     "Acceleration": "14.5",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "188",
     "Car": "Saab 99LE",
     "MPG": "25.0",
@@ -2254,8 +2066,7 @@
     "Acceleration": "13.5",
     "Model": "75",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "189",
     "Car": "Honda Civic CVCC",
     "MPG": "33.0",
@@ -2266,8 +2077,7 @@
     "Acceleration": "17.5",
     "Model": "75",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "190",
     "Car": "Fiat 131",
     "MPG": "28.0",
@@ -2278,8 +2088,7 @@
     "Acceleration": "15.5",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "191",
     "Car": "Opel 1900",
     "MPG": "25.0",
@@ -2290,8 +2099,7 @@
     "Acceleration": "16.9",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "192",
     "Car": "Capri ii",
     "MPG": "25.0",
@@ -2302,8 +2110,7 @@
     "Acceleration": "14.9",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "193",
     "Car": "Dodge Colt",
     "MPG": "26.0",
@@ -2314,8 +2121,7 @@
     "Acceleration": "17.7",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "194",
     "Car": "Renault 12tl",
     "MPG": "27.0",
@@ -2326,8 +2132,7 @@
     "Acceleration": "15.3",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "195",
     "Car": "Chevrolet Chevelle Malibu Classic",
     "MPG": "17.5",
@@ -2338,8 +2143,7 @@
     "Acceleration": "13.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "196",
     "Car": "Dodge Coronet Brougham",
     "MPG": "16.0",
@@ -2350,8 +2154,7 @@
     "Acceleration": "13.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "197",
     "Car": "AMC Matador",
     "MPG": "15.5",
@@ -2362,8 +2165,7 @@
     "Acceleration": "13.9",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "198",
     "Car": "Ford Gran Torino",
     "MPG": "14.5",
@@ -2374,8 +2176,7 @@
     "Acceleration": "12.8",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "199",
     "Car": "Plymouth Valiant",
     "MPG": "22.0",
@@ -2386,8 +2187,7 @@
     "Acceleration": "15.4",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "200",
     "Car": "Chevrolet Nova",
     "MPG": "22.0",
@@ -2398,8 +2198,7 @@
     "Acceleration": "14.5",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "201",
     "Car": "Ford Maverick",
     "MPG": "24.0",
@@ -2410,8 +2209,7 @@
     "Acceleration": "17.6",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "202",
     "Car": "AMC Hornet",
     "MPG": "22.5",
@@ -2422,8 +2220,7 @@
     "Acceleration": "17.6",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "203",
     "Car": "Chevrolet Chevette",
     "MPG": "29.0",
@@ -2434,8 +2231,7 @@
     "Acceleration": "22.2",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "204",
     "Car": "Chevrolet Woody",
     "MPG": "24.5",
@@ -2446,8 +2242,7 @@
     "Acceleration": "22.1",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "205",
     "Car": "Volkswagen Rabbit",
     "MPG": "29.0",
@@ -2458,8 +2253,7 @@
     "Acceleration": "14.2",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "206",
     "Car": "Honda Civic",
     "MPG": "33.0",
@@ -2470,8 +2264,7 @@
     "Acceleration": "17.4",
     "Model": "76",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "207",
     "Car": "Dodge Aspen SE",
     "MPG": "20.0",
@@ -2482,8 +2275,7 @@
     "Acceleration": "17.7",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "208",
     "Car": "Ford Grenada ghia",
     "MPG": "18.0",
@@ -2494,8 +2286,7 @@
     "Acceleration": "21.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "209",
     "Car": "Pontiac Ventura SJ",
     "MPG": "18.5",
@@ -2506,8 +2297,7 @@
     "Acceleration": "16.2",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "210",
     "Car": "AMC Pacer d/l",
     "MPG": "17.5",
@@ -2518,8 +2308,7 @@
     "Acceleration": "17.8",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "211",
     "Car": "Volkswagen Rabbit",
     "MPG": "29.5",
@@ -2530,8 +2319,7 @@
     "Acceleration": "12.2",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "212",
     "Car": "Datsun B-210",
     "MPG": "32.0",
@@ -2542,8 +2330,7 @@
     "Acceleration": "17.0",
     "Model": "76",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "213",
     "Car": "Toyota Corolla",
     "MPG": "28.0",
@@ -2554,8 +2341,7 @@
     "Acceleration": "16.4",
     "Model": "76",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "214",
     "Car": "Ford Pinto",
     "MPG": "26.5",
@@ -2566,8 +2352,7 @@
     "Acceleration": "13.6",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "215",
     "Car": "Volvo 245",
     "MPG": "20.0",
@@ -2578,8 +2363,7 @@
     "Acceleration": "15.7",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "216",
     "Car": "Plymouth Volare Premier v8",
     "MPG": "13.0",
@@ -2590,8 +2374,7 @@
     "Acceleration": "13.2",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "217",
     "Car": "Peugeot 504",
     "MPG": "19.0",
@@ -2602,8 +2385,7 @@
     "Acceleration": "21.9",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "218",
     "Car": "Toyota Mark II",
     "MPG": "19.0",
@@ -2614,8 +2396,7 @@
     "Acceleration": "15.5",
     "Model": "76",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "219",
     "Car": "Mercedes-Benz 280s",
     "MPG": "16.5",
@@ -2626,8 +2407,7 @@
     "Acceleration": "16.7",
     "Model": "76",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "220",
     "Car": "Cadillac Seville",
     "MPG": "16.5",
@@ -2638,8 +2418,7 @@
     "Acceleration": "12.1",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "221",
     "Car": "Chevrolet C10",
     "MPG": "13.0",
@@ -2650,8 +2429,7 @@
     "Acceleration": "12.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "222",
     "Car": "Ford F108",
     "MPG": "13.0",
@@ -2662,8 +2440,7 @@
     "Acceleration": "15.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "223",
     "Car": "Dodge D100",
     "MPG": "13.0",
@@ -2674,8 +2451,7 @@
     "Acceleration": "14.0",
     "Model": "76",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "224",
     "Car": "Honda Accord CVCC",
     "MPG": "31.5",
@@ -2686,8 +2462,7 @@
     "Acceleration": "18.5",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "225",
     "Car": "Buick Opel Isuzu Deluxe",
     "MPG": "30.0",
@@ -2698,8 +2473,7 @@
     "Acceleration": "14.8",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "226",
     "Car": "Renault 5 GTL",
     "MPG": "36.0",
@@ -2710,8 +2484,7 @@
     "Acceleration": "18.6",
     "Model": "77",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "227",
     "Car": "Plymouth Arrow GS",
     "MPG": "25.5",
@@ -2722,8 +2495,7 @@
     "Acceleration": "15.5",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "228",
     "Car": "Datsun F-10 Hatchback",
     "MPG": "33.5",
@@ -2734,8 +2506,7 @@
     "Acceleration": "16.8",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "229",
     "Car": "Chevrolet Caprice Classic",
     "MPG": "17.5",
@@ -2746,8 +2517,7 @@
     "Acceleration": "12.5",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "230",
     "Car": "Oldsmobile Cutlass Supreme",
     "MPG": "17.0",
@@ -2758,8 +2528,7 @@
     "Acceleration": "19.0",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "231",
     "Car": "Dodge Monaco Brougham",
     "MPG": "15.5",
@@ -2770,8 +2539,7 @@
     "Acceleration": "13.7",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "232",
     "Car": "Mercury Cougar Brougham",
     "MPG": "15.0",
@@ -2782,8 +2550,7 @@
     "Acceleration": "14.9",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "233",
     "Car": "Chevrolet Concours",
     "MPG": "17.5",
@@ -2794,8 +2561,7 @@
     "Acceleration": "16.4",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "234",
     "Car": "Buick Skylark",
     "MPG": "20.5",
@@ -2806,8 +2572,7 @@
     "Acceleration": "16.9",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "235",
     "Car": "Plymouth Volare Custom",
     "MPG": "19.0",
@@ -2818,8 +2583,7 @@
     "Acceleration": "17.7",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "236",
     "Car": "Ford Grenada",
     "MPG": "18.5",
@@ -2830,8 +2594,7 @@
     "Acceleration": "19.0",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "237",
     "Car": "Pontiac Grand Prix LJ",
     "MPG": "16.0",
@@ -2842,8 +2605,7 @@
     "Acceleration": "11.1",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "238",
     "Car": "Chevrolet Monte Carlo Landau",
     "MPG": "15.5",
@@ -2854,8 +2616,7 @@
     "Acceleration": "11.4",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "239",
     "Car": "Chrysler Cordoba",
     "MPG": "15.5",
@@ -2866,8 +2627,7 @@
     "Acceleration": "12.2",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "240",
     "Car": "Ford Thunderbird",
     "MPG": "16.0",
@@ -2878,8 +2638,7 @@
     "Acceleration": "14.5",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "241",
     "Car": "Volkswagen Rabbit Custom",
     "MPG": "29.0",
@@ -2890,8 +2649,7 @@
     "Acceleration": "14.5",
     "Model": "77",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "242",
     "Car": "Pontiac Sunbird Coupe",
     "MPG": "24.5",
@@ -2902,8 +2660,7 @@
     "Acceleration": "16.0",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "243",
     "Car": "Toyota Corolla Liftback",
     "MPG": "26.0",
@@ -2914,8 +2671,7 @@
     "Acceleration": "18.2",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "244",
     "Car": "Ford Mustang II 2+2",
     "MPG": "25.5",
@@ -2926,8 +2682,7 @@
     "Acceleration": "15.8",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "245",
     "Car": "Chevrolet Chevette",
     "MPG": "30.5",
@@ -2938,8 +2693,7 @@
     "Acceleration": "17.0",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "246",
     "Car": "Dodge Colt m/m",
     "MPG": "33.5",
@@ -2950,8 +2704,7 @@
     "Acceleration": "15.9",
     "Model": "77",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "247",
     "Car": "Subaru DL",
     "MPG": "30.0",
@@ -2962,8 +2715,7 @@
     "Acceleration": "16.4",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "248",
     "Car": "Volkswagen Dasher",
     "MPG": "30.5",
@@ -2974,8 +2726,7 @@
     "Acceleration": "14.1",
     "Model": "77",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "249",
     "Car": "Datsun 810",
     "MPG": "22.0",
@@ -2986,8 +2737,7 @@
     "Acceleration": "14.5",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "250",
     "Car": "BMW 320i",
     "MPG": "21.5",
@@ -2998,8 +2748,7 @@
     "Acceleration": "12.8",
     "Model": "77",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "251",
     "Car": "Mazda RX-4",
     "MPG": "21.5",
@@ -3010,8 +2759,7 @@
     "Acceleration": "13.5",
     "Model": "77",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "252",
     "Car": "Volkswagen Rabbit Custom Diesel",
     "MPG": "43.1",
@@ -3022,8 +2770,7 @@
     "Acceleration": "21.5",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "253",
     "Car": "Ford Fiesta",
     "MPG": "36.1",
@@ -3034,8 +2781,7 @@
     "Acceleration": "14.4",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "254",
     "Car": "Mazda GLC Deluxe",
     "MPG": "32.8",
@@ -3046,8 +2792,7 @@
     "Acceleration": "19.4",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "255",
     "Car": "Datsun B210 GX",
     "MPG": "39.4",
@@ -3058,8 +2803,7 @@
     "Acceleration": "18.6",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "256",
     "Car": "Honda Civic CVCC",
     "MPG": "36.1",
@@ -3070,8 +2814,7 @@
     "Acceleration": "16.4",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "257",
     "Car": "Oldsmobile Cutlass Salon Brougham",
     "MPG": "19.9",
@@ -3082,8 +2825,7 @@
     "Acceleration": "15.5",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "258",
     "Car": "Dodge Diplomat",
     "MPG": "19.4",
@@ -3094,8 +2836,7 @@
     "Acceleration": "13.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "259",
     "Car": "Mercury Monarch ghia",
     "MPG": "20.2",
@@ -3106,8 +2847,7 @@
     "Acceleration": "12.8",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "260",
     "Car": "Pontiac Phoenix LJ",
     "MPG": "19.2",
@@ -3118,8 +2858,7 @@
     "Acceleration": "19.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "261",
     "Car": "Chevrolet Malibu",
     "MPG": "20.5",
@@ -3130,8 +2869,7 @@
     "Acceleration": "18.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "262",
     "Car": "Ford Fairmont (auto)",
     "MPG": "20.2",
@@ -3142,8 +2880,7 @@
     "Acceleration": "15.8",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "263",
     "Car": "Ford Fairmont (man)",
     "MPG": "25.1",
@@ -3154,8 +2891,7 @@
     "Acceleration": "15.4",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "264",
     "Car": "Plymouth Volare",
     "MPG": "20.5",
@@ -3166,8 +2902,7 @@
     "Acceleration": "17.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "265",
     "Car": "AMC Concord",
     "MPG": "19.4",
@@ -3178,8 +2913,7 @@
     "Acceleration": "17.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "266",
     "Car": "Buick Century Special",
     "MPG": "20.6",
@@ -3190,8 +2924,7 @@
     "Acceleration": "15.8",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "267",
     "Car": "Mercury Zephyr",
     "MPG": "20.8",
@@ -3202,8 +2935,7 @@
     "Acceleration": "16.7",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "268",
     "Car": "Dodge Aspen",
     "MPG": "18.6",
@@ -3214,8 +2946,7 @@
     "Acceleration": "18.7",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "269",
     "Car": "AMC Concord d/l",
     "MPG": "18.1",
@@ -3226,8 +2957,7 @@
     "Acceleration": "15.1",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "270",
     "Car": "Chevrolet Monte Carlo Landau",
     "MPG": "19.2",
@@ -3238,8 +2968,7 @@
     "Acceleration": "13.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "271",
     "Car": "Buick Regal Sport Coupe (turbo)",
     "MPG": "17.7",
@@ -3250,8 +2979,7 @@
     "Acceleration": "13.4",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "272",
     "Car": "Ford Futura",
     "MPG": "18.1",
@@ -3262,8 +2990,7 @@
     "Acceleration": "11.2",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "273",
     "Car": "Dodge Magnum XE",
     "MPG": "17.5",
@@ -3274,8 +3001,7 @@
     "Acceleration": "13.7",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "274",
     "Car": "Chevrolet Chevette",
     "MPG": "30.0",
@@ -3286,8 +3012,7 @@
     "Acceleration": "16.5",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "275",
     "Car": "Toyota Corolla",
     "MPG": "27.5",
@@ -3298,8 +3023,7 @@
     "Acceleration": "14.2",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "276",
     "Car": "Datsun 510",
     "MPG": "27.2",
@@ -3310,8 +3034,7 @@
     "Acceleration": "14.7",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "277",
     "Car": "Dodge Omni",
     "MPG": "30.9",
@@ -3322,8 +3045,7 @@
     "Acceleration": "14.5",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "278",
     "Car": "Toyota Celica GT Liftback",
     "MPG": "21.1",
@@ -3334,8 +3056,7 @@
     "Acceleration": "14.8",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "279",
     "Car": "Plymouth Sapporo",
     "MPG": "23.2",
@@ -3346,8 +3067,7 @@
     "Acceleration": "16.7",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "280",
     "Car": "Oldsmobile Starfire SX",
     "MPG": "23.8",
@@ -3358,8 +3078,7 @@
     "Acceleration": "17.6",
     "Model": "78",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "281",
     "Car": "Datsun 200-SX",
     "MPG": "23.9",
@@ -3370,8 +3089,7 @@
     "Acceleration": "14.9",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "282",
     "Car": "Audi 5000",
     "MPG": "20.3",
@@ -3382,8 +3100,7 @@
     "Acceleration": "15.9",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "283",
     "Car": "Volvo 264gl",
     "MPG": "17.0",
@@ -3394,8 +3111,7 @@
     "Acceleration": "13.6",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "284",
     "Car": "Saab 99gle",
     "MPG": "21.6",
@@ -3406,8 +3122,7 @@
     "Acceleration": "15.7",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "285",
     "Car": "Peugeot 604sl",
     "MPG": "16.2",
@@ -3418,8 +3133,7 @@
     "Acceleration": "15.8",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "286",
     "Car": "Volkswagen Scirocco",
     "MPG": "31.5",
@@ -3430,8 +3144,7 @@
     "Acceleration": "14.9",
     "Model": "78",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "287",
     "Car": "Honda Accord LX",
     "MPG": "29.5",
@@ -3442,8 +3155,7 @@
     "Acceleration": "16.6",
     "Model": "78",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "288",
     "Car": "Pontiac Lemans V6",
     "MPG": "21.5",
@@ -3454,8 +3166,7 @@
     "Acceleration": "15.4",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "289",
     "Car": "Mercury Zephyr 6",
     "MPG": "19.8",
@@ -3466,8 +3177,7 @@
     "Acceleration": "18.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "290",
     "Car": "Ford Fairmont 4",
     "MPG": "22.3",
@@ -3478,8 +3188,7 @@
     "Acceleration": "17.3",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "291",
     "Car": "AMC Concord DL 6",
     "MPG": "20.2",
@@ -3490,8 +3199,7 @@
     "Acceleration": "18.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "292",
     "Car": "Dodge Aspen 6",
     "MPG": "20.6",
@@ -3502,8 +3210,7 @@
     "Acceleration": "16.6",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "293",
     "Car": "Chevrolet Caprice Classic",
     "MPG": "17.0",
@@ -3514,8 +3221,7 @@
     "Acceleration": "15.4",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "294",
     "Car": "Ford LTD Landau",
     "MPG": "17.6",
@@ -3526,8 +3232,7 @@
     "Acceleration": "13.4",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "295",
     "Car": "Mercury Grand Marquis",
     "MPG": "16.5",
@@ -3538,8 +3243,7 @@
     "Acceleration": "13.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "296",
     "Car": "Dodge St. Regis",
     "MPG": "18.2",
@@ -3550,8 +3254,7 @@
     "Acceleration": "15.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "297",
     "Car": "Buick Estate Wagon (sw)",
     "MPG": "16.9",
@@ -3562,8 +3265,7 @@
     "Acceleration": "14.9",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "298",
     "Car": "Ford Country Squire (sw)",
     "MPG": "15.5",
@@ -3574,8 +3276,7 @@
     "Acceleration": "14.3",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "299",
     "Car": "Chevrolet Malibu Classic (sw)",
     "MPG": "19.2",
@@ -3586,8 +3287,7 @@
     "Acceleration": "15.0",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "300",
     "Car": "Chrysler Lebaron Town @ Country (sw)",
     "MPG": "18.5",
@@ -3598,8 +3298,7 @@
     "Acceleration": "13.0",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "301",
     "Car": "Volkswagen Rabbit Custom",
     "MPG": "31.9",
@@ -3610,8 +3309,7 @@
     "Acceleration": "14.0",
     "Model": "79",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "302",
     "Car": "Mazda GLC Deluxe",
     "MPG": "34.1",
@@ -3622,8 +3320,7 @@
     "Acceleration": "15.2",
     "Model": "79",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "303",
     "Car": "Dodge Colt Hatchback Custom",
     "MPG": "35.7",
@@ -3634,8 +3331,7 @@
     "Acceleration": "14.4",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "304",
     "Car": "AMC Spirit DL",
     "MPG": "27.4",
@@ -3646,8 +3342,7 @@
     "Acceleration": "15.0",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "305",
     "Car": "Mercedes Benz 300d",
     "MPG": "25.4",
@@ -3658,8 +3353,7 @@
     "Acceleration": "20.1",
     "Model": "79",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "306",
     "Car": "Cadillac Eldorado",
     "MPG": "23.0",
@@ -3670,8 +3364,7 @@
     "Acceleration": "17.4",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "307",
     "Car": "Peugeot 504",
     "MPG": "27.2",
@@ -3682,8 +3375,7 @@
     "Acceleration": "24.8",
     "Model": "79",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "308",
     "Car": "Oldsmobile Cutlass Salon Brougham",
     "MPG": "23.9",
@@ -3694,8 +3386,7 @@
     "Acceleration": "22.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "309",
     "Car": "Plymouth Horizon",
     "MPG": "34.2",
@@ -3706,8 +3397,7 @@
     "Acceleration": "13.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "310",
     "Car": "Plymouth Horizon TC3",
     "MPG": "34.5",
@@ -3718,8 +3408,7 @@
     "Acceleration": "14.9",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "311",
     "Car": "Datsun 210",
     "MPG": "31.8",
@@ -3730,8 +3419,7 @@
     "Acceleration": "19.2",
     "Model": "79",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "312",
     "Car": "Fiat Strada Custom",
     "MPG": "37.3",
@@ -3742,8 +3430,7 @@
     "Acceleration": "14.7",
     "Model": "79",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "313",
     "Car": "Buick Skylark Limited",
     "MPG": "28.4",
@@ -3754,8 +3441,7 @@
     "Acceleration": "16.0",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "314",
     "Car": "Chevrolet Citation",
     "MPG": "28.8",
@@ -3766,8 +3452,7 @@
     "Acceleration": "11.3",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "315",
     "Car": "Oldsmobile Omega Brougham",
     "MPG": "26.8",
@@ -3778,8 +3463,7 @@
     "Acceleration": "12.9",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "316",
     "Car": "Pontiac Phoenix",
     "MPG": "33.5",
@@ -3790,8 +3474,7 @@
     "Acceleration": "13.2",
     "Model": "79",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "317",
     "Car": "Volkswagen Rabbit",
     "MPG": "41.5",
@@ -3802,8 +3485,7 @@
     "Acceleration": "14.7",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "318",
     "Car": "Toyota Corolla Tercel",
     "MPG": "38.1",
@@ -3814,8 +3496,7 @@
     "Acceleration": "18.8",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "319",
     "Car": "Chevrolet Chevette",
     "MPG": "32.1",
@@ -3826,8 +3507,7 @@
     "Acceleration": "15.5",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "320",
     "Car": "Datsun 310",
     "MPG": "37.2",
@@ -3838,8 +3518,7 @@
     "Acceleration": "16.4",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "321",
     "Car": "Chevrolet Citation",
     "MPG": "28.0",
@@ -3850,8 +3529,7 @@
     "Acceleration": "16.5",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "322",
     "Car": "Ford Fairmont",
     "MPG": "26.4",
@@ -3862,8 +3540,7 @@
     "Acceleration": "18.1",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "323",
     "Car": "AMC Concord",
     "MPG": "24.3",
@@ -3874,8 +3551,7 @@
     "Acceleration": "20.1",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "324",
     "Car": "Dodge Aspen",
     "MPG": "19.1",
@@ -3886,8 +3562,7 @@
     "Acceleration": "18.7",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "325",
     "Car": "Audi 4000",
     "MPG": "34.3",
@@ -3898,8 +3573,7 @@
     "Acceleration": "15.8",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "326",
     "Car": "Toyota Corolla Liftback",
     "MPG": "29.8",
@@ -3910,8 +3584,7 @@
     "Acceleration": "15.5",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "327",
     "Car": "Mazda 626",
     "MPG": "31.3",
@@ -3922,8 +3595,7 @@
     "Acceleration": "17.5",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "328",
     "Car": "Datsun 510 Hatchback",
     "MPG": "37.0",
@@ -3934,8 +3606,7 @@
     "Acceleration": "15.0",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "329",
     "Car": "Toyota Corolla",
     "MPG": "32.2",
@@ -3946,8 +3617,7 @@
     "Acceleration": "15.2",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "330",
     "Car": "Mazda GLC",
     "MPG": "46.6",
@@ -3958,8 +3628,7 @@
     "Acceleration": "17.9",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "331",
     "Car": "Dodge Colt",
     "MPG": "27.9",
@@ -3970,8 +3639,7 @@
     "Acceleration": "14.4",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "332",
     "Car": "Datsun 210",
     "MPG": "40.8",
@@ -3982,8 +3650,7 @@
     "Acceleration": "19.2",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "333",
     "Car": "Volkswagen Rabbit C (Diesel)",
     "MPG": "44.3",
@@ -3994,8 +3661,7 @@
     "Acceleration": "21.7",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "334",
     "Car": "Volkswagen Dasher (diesel)",
     "MPG": "43.4",
@@ -4006,8 +3672,7 @@
     "Acceleration": "23.7",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "335",
     "Car": "Audi 5000s (diesel)",
     "MPG": "36.4",
@@ -4018,8 +3683,7 @@
     "Acceleration": "19.9",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "336",
     "Car": "Mercedes-Benz 240d",
     "MPG": "30.0",
@@ -4030,8 +3694,7 @@
     "Acceleration": "21.8",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "337",
     "Car": "Honda Civic 1500 gl",
     "MPG": "44.6",
@@ -4042,8 +3705,7 @@
     "Acceleration": "13.8",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "338",
     "Car": "Renault Lecar Deluxe",
     "MPG": "40.9",
@@ -4054,8 +3716,7 @@
     "Acceleration": "17.3",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "339",
     "Car": "Subaru DL",
     "MPG": "33.8",
@@ -4066,8 +3727,7 @@
     "Acceleration": "18.0",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "340",
     "Car": "Volkswagen Rabbit",
     "MPG": "29.8",
@@ -4078,8 +3738,7 @@
     "Acceleration": "15.3",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "341",
     "Car": "Datsun 280-ZX",
     "MPG": "32.7",
@@ -4090,8 +3749,7 @@
     "Acceleration": "11.4",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "342",
     "Car": "Mazda RX-7 GS",
     "MPG": "23.7",
@@ -4102,8 +3760,7 @@
     "Acceleration": "12.5",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "343",
     "Car": "Triumph TR7 Coupe",
     "MPG": "35.0",
@@ -4114,8 +3771,7 @@
     "Acceleration": "15.1",
     "Model": "80",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "344",
     "Car": "Ford Mustang Cobra",
     "MPG": "23.6",
@@ -4126,8 +3782,7 @@
     "Acceleration": "14.3",
     "Model": "80",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "345",
     "Car": "Honda Accord",
     "MPG": "32.4",
@@ -4138,8 +3793,7 @@
     "Acceleration": "17.0",
     "Model": "80",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "346",
     "Car": "Plymouth Reliant",
     "MPG": "27.2",
@@ -4150,8 +3804,7 @@
     "Acceleration": "15.7",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "347",
     "Car": "Buick Skylark",
     "MPG": "26.6",
@@ -4162,8 +3815,7 @@
     "Acceleration": "16.4",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "348",
     "Car": "Dodge Aries Wagon (sw)",
     "MPG": "25.8",
@@ -4174,8 +3826,7 @@
     "Acceleration": "14.4",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "349",
     "Car": "Chevrolet Citation",
     "MPG": "23.5",
@@ -4186,8 +3837,7 @@
     "Acceleration": "12.6",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "350",
     "Car": "Plymouth Reliant",
     "MPG": "30.0",
@@ -4198,8 +3848,7 @@
     "Acceleration": "12.9",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "351",
     "Car": "Toyota Starlet",
     "MPG": "39.1",
@@ -4210,8 +3859,7 @@
     "Acceleration": "16.9",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "352",
     "Car": "Plymouth Champ",
     "MPG": "39.0",
@@ -4222,8 +3870,7 @@
     "Acceleration": "16.4",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "353",
     "Car": "Honda Civic 1300",
     "MPG": "35.1",
@@ -4234,8 +3881,7 @@
     "Acceleration": "16.1",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "354",
     "Car": "Subaru",
     "MPG": "32.3",
@@ -4246,8 +3892,7 @@
     "Acceleration": "17.8",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "355",
     "Car": "Datsun 210 MPG",
     "MPG": "37.0",
@@ -4258,8 +3903,7 @@
     "Acceleration": "19.4",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "356",
     "Car": "Toyota Tercel",
     "MPG": "37.7",
@@ -4270,8 +3914,7 @@
     "Acceleration": "17.3",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "357",
     "Car": "Mazda GLC 4",
     "MPG": "34.1",
@@ -4282,8 +3925,7 @@
     "Acceleration": "16.0",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "358",
     "Car": "Plymouth Horizon 4",
     "MPG": "34.7",
@@ -4294,8 +3936,7 @@
     "Acceleration": "14.9",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "359",
     "Car": "Ford Escort 4W",
     "MPG": "34.4",
@@ -4306,8 +3947,7 @@
     "Acceleration": "16.2",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "360",
     "Car": "Ford Escort 2H",
     "MPG": "29.9",
@@ -4318,8 +3958,7 @@
     "Acceleration": "20.7",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "361",
     "Car": "Volkswagen Jetta",
     "MPG": "33.0",
@@ -4330,8 +3969,7 @@
     "Acceleration": "14.2",
     "Model": "81",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "362",
     "Car": "Renault 18i",
     "MPG": "34.5",
@@ -4342,8 +3980,7 @@
     "Acceleration": "15.8",
     "Model": "81",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "363",
     "Car": "Honda Prelude",
     "MPG": "33.7",
@@ -4354,8 +3991,7 @@
     "Acceleration": "14.4",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "364",
     "Car": "Toyota Corolla",
     "MPG": "32.4",
@@ -4366,8 +4002,7 @@
     "Acceleration": "16.8",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "365",
     "Car": "Datsun 200SX",
     "MPG": "32.9",
@@ -4378,8 +4013,7 @@
     "Acceleration": "14.8",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "366",
     "Car": "Mazda 626",
     "MPG": "31.6",
@@ -4390,8 +4024,7 @@
     "Acceleration": "18.3",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "367",
     "Car": "Peugeot 505s Turbo Diesel",
     "MPG": "28.1",
@@ -4402,8 +4035,7 @@
     "Acceleration": "20.4",
     "Model": "81",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "368",
     "Car": "Saab 900s",
     "MPG": "0",
@@ -4414,8 +4046,7 @@
     "Acceleration": "15.4",
     "Model": "81",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "369",
     "Car": "Volvo Diesel",
     "MPG": "30.7",
@@ -4426,8 +4057,7 @@
     "Acceleration": "19.6",
     "Model": "81",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "370",
     "Car": "Toyota Cressida",
     "MPG": "25.4",
@@ -4438,8 +4068,7 @@
     "Acceleration": "12.6",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "371",
     "Car": "Datsun 810 Maxima",
     "MPG": "24.2",
@@ -4450,8 +4079,7 @@
     "Acceleration": "13.8",
     "Model": "81",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "372",
     "Car": "Buick Century",
     "MPG": "22.4",
@@ -4462,8 +4090,7 @@
     "Acceleration": "15.8",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "373",
     "Car": "Oldsmobile Cutlass LS",
     "MPG": "26.6",
@@ -4474,8 +4101,7 @@
     "Acceleration": "19.0",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "374",
     "Car": "Ford Grenada gl",
     "MPG": "20.2",
@@ -4486,8 +4112,7 @@
     "Acceleration": "17.1",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "375",
     "Car": "Chrysler Lebaron Salon",
     "MPG": "17.6",
@@ -4498,8 +4123,7 @@
     "Acceleration": "16.6",
     "Model": "81",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "376",
     "Car": "Chevrolet Cavalier",
     "MPG": "28.0",
@@ -4510,8 +4134,7 @@
     "Acceleration": "19.6",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "377",
     "Car": "Chevrolet Cavalier Wagon",
     "MPG": "27.0",
@@ -4522,8 +4145,7 @@
     "Acceleration": "18.6",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "378",
     "Car": "Chevrolet Cavalier 2-door",
     "MPG": "34.0",
@@ -4534,8 +4156,7 @@
     "Acceleration": "18.0",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "379",
     "Car": "Pontiac J2000 SE Hatchback",
     "MPG": "31.0",
@@ -4546,8 +4167,7 @@
     "Acceleration": "16.2",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "380",
     "Car": "Dodge Aries SE",
     "MPG": "29.0",
@@ -4558,8 +4178,7 @@
     "Acceleration": "16.0",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "381",
     "Car": "Pontiac Phoenix",
     "MPG": "27.0",
@@ -4570,8 +4189,7 @@
     "Acceleration": "18.0",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "382",
     "Car": "Ford Fairmont Futura",
     "MPG": "24.0",
@@ -4582,8 +4200,7 @@
     "Acceleration": "16.4",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "383",
     "Car": "AMC Concord DL",
     "MPG": "23.0",
@@ -4594,8 +4211,7 @@
     "Acceleration": "20.5",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "384",
     "Car": "Volkswagen Rabbit lD",
     "MPG": "36.0",
@@ -4606,8 +4222,7 @@
     "Acceleration": "15.3",
     "Model": "82",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "385",
     "Car": "Mazda GLC Custom l",
     "MPG": "37.0",
@@ -4618,8 +4233,7 @@
     "Acceleration": "18.2",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "386",
     "Car": "Mazda GLC Custom",
     "MPG": "31.0",
@@ -4630,8 +4244,7 @@
     "Acceleration": "17.6",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "387",
     "Car": "Plymouth Horizon Miser",
     "MPG": "38.0",
@@ -4642,8 +4255,7 @@
     "Acceleration": "14.7",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "388",
     "Car": "Mercury Lynx l",
     "MPG": "36.0",
@@ -4654,8 +4266,7 @@
     "Acceleration": "17.3",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "389",
     "Car": "Nissan Stanza XE",
     "MPG": "36.0",
@@ -4666,8 +4277,7 @@
     "Acceleration": "14.5",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "390",
     "Car": "Honda Accord",
     "MPG": "36.0",
@@ -4678,8 +4288,7 @@
     "Acceleration": "14.5",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "391",
     "Car": "Toyota Corolla",
     "MPG": "34.0",
@@ -4690,8 +4299,7 @@
     "Acceleration": "16.9",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "392",
     "Car": "Honda Civic",
     "MPG": "38.0",
@@ -4702,8 +4310,7 @@
     "Acceleration": "15.0",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "393",
     "Car": "Honda Civic (auto)",
     "MPG": "32.0",
@@ -4714,8 +4321,7 @@
     "Acceleration": "15.7",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "394",
     "Car": "Datsun 310 GX",
     "MPG": "38.0",
@@ -4726,8 +4332,7 @@
     "Acceleration": "16.2",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "395",
     "Car": "Buick Century Limited",
     "MPG": "25.0",
@@ -4738,8 +4343,7 @@
     "Acceleration": "16.4",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "396",
     "Car": "Oldsmobile Cutlass Ciera (diesel)",
     "MPG": "38.0",
@@ -4750,8 +4354,7 @@
     "Acceleration": "17.0",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "397",
     "Car": "Chrysler Lebaron Medallion",
     "MPG": "26.0",
@@ -4762,8 +4365,7 @@
     "Acceleration": "14.5",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "398",
     "Car": "Ford Grenada l",
     "MPG": "22.0",
@@ -4774,8 +4376,7 @@
     "Acceleration": "14.7",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "399",
     "Car": "Toyota Celica GT",
     "MPG": "32.0",
@@ -4786,8 +4387,7 @@
     "Acceleration": "13.9",
     "Model": "82",
     "Origin": "Japan"
-  },
-  {
+}, {
     "ID": "400",
     "Car": "Dodge Charger 2.2",
     "MPG": "36.0",
@@ -4798,8 +4398,7 @@
     "Acceleration": "13.0",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "401",
     "Car": "Chevrolet Camaro",
     "MPG": "27.0",
@@ -4810,8 +4409,7 @@
     "Acceleration": "17.3",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "402",
     "Car": "Ford Mustang GL",
     "MPG": "27.0",
@@ -4822,8 +4420,7 @@
     "Acceleration": "15.6",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "403",
     "Car": "Volkswagen Pickup",
     "MPG": "44.0",
@@ -4834,8 +4431,7 @@
     "Acceleration": "24.6",
     "Model": "82",
     "Origin": "Europe"
-  },
-  {
+}, {
     "ID": "404",
     "Car": "Dodge Rampage",
     "MPG": "32.0",
@@ -4846,8 +4442,7 @@
     "Acceleration": "11.6",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "405",
     "Car": "Ford Ranger",
     "MPG": "28.0",
@@ -4858,8 +4453,7 @@
     "Acceleration": "18.6",
     "Model": "82",
     "Origin": "US"
-  },
-  {
+}, {
     "ID": "406",
     "Car": "Chevy S-10",
     "MPG": "31.0",
@@ -4870,5 +4464,4 @@
     "Acceleration": "19.4",
     "Model": "82",
     "Origin": "US"
-  }
-]
+}]

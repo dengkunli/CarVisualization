@@ -8,7 +8,7 @@ const [
 ];
 
 const src = fs.createReadStream('cars.csv');
-const dest = fs.createWriteStream('cars.json');
+const dest = fs.createWriteStream('cars.js');
 
 const reader = readline.createInterface({
     input: src
@@ -33,7 +33,7 @@ reader.on('line', (line) => {
 
 reader.on('close', () => {
     // console.log('close', JSON.stringify(data));
-    dest.write(JSON.stringify(data));
+    dest.write('var data = ' + JSON.stringify(data));
 });
 
 
