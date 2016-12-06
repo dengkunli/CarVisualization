@@ -1,0 +1,22 @@
+{
+  "name": "carvisualization",
+  "version": "1.0.0",
+  "description": "A visualization of global car characteristics between 1970 and 1982",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengkunli/CarVisualization.git"
+  },
+  "author": "Kunli Deng <kunli.deng.24@gmail.com> (http://dengkunli.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dengkunli/CarVisualization/issues"
+  },
+  "homepage": "https://github.com/dengkunli/CarVisualization#readme",
+  "dependencies": {
+    "highcharts": "^5.0.5"
+  }
+}
