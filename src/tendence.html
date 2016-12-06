@@ -3,65 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="./tendence.css">
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <style>
-        .button {
-            position: relative;
-            background-color: #4CAF50;
-            border: none;
-            font-size: 15px;
-            color: #FFFFFF;
-            padding: 8px;
-            text-align: center;
-            -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-            text-decoration: none;
-            overflow: hidden;
-            cursor: pointer;
-            margin: auto;
-            width: 180px;
-        }
-
-        .button:after {
-            content: "";
-            background: #f1f1f1;
-            display: block;
-            position: absolute;
-            padding-top: 300%;
-            padding-left: 350%;
-            margin-left: -20px !important;
-            margin-top: -120%;
-            opacity: 0;
-            transition: all 0.8s
-        }
-
-        .button:active:after {
-            padding: 0;
-            margin: 0;
-            opacity: 1;
-            transition: 0s
-        }
-        #btn-group{
-            display: flex;
-        }
-    </style>
-
 </head>
 <body>
-    <div id="container"></div>
-    <div id="btn-group"></div>
-    <!--
-    <div class="chart" id="MPGPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    <div class="chart" id="cylindersPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    <div class="chart" id="displacementPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    <div class="chart" id="horsepowerPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    <div class="chart" id="weightPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    <div class="chart" id="accelerationPerYear" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
-    -->
-    <script src="../data/cars.js"></script>
-    <script src="tendence.js"></script>
+<div id="container"></div>
+<div id="btn-group"></div>
+
+<script src="../data/cars.js"></script>
+<script src="tendence.js"></script>
 
 </body>
 </html>
