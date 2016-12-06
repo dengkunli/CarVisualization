@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="https://code.highcharts.com/highcharts.js"></script>
+    <style>
+        #correlationTable {
+            border-collapse: collapse;
+        }
+
+        #bigCorrelation {
+            /*width: 400px;*/
+            /*height: 400px;*/
+        }
+
+        td {
+            border: 1px solid black;
+        }
+        td:hover {
+            background: pink;
+        }
+        .chart {
+            min-width: 100px;
+            max-width: 100px;
+            min-height: 100px;
+            max-height: 100px;
+            margin: 2px;
+        }
+        .label {
+            font-family: fantasy;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .correlationChartContainer {
+            display: flex;
+            align-items: center;
+        }
+    </style>
 </head>
 <body onload="drawChart()">
-    <div id="container" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
+    <div class="correlationChartContainer">
+        <table id="correlationTable">
+            <tbody id="correlationMatrix"></tbody>
+        </table>
+        <div id="bigCorrelation"></div>
+    </div>
     <script src="../data/cars.js"></script>
     <script src="correlation.js"></script>
 </body>
 </html>
+
