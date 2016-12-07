@@ -2,31 +2,149 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Datavis</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>A visualization of global car characteristics between 1970 and 1982</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      /* Global settings */
+      * {
+        font-family: fantasy;
+      }
+      /* Correlation */
+      #correlationTable {
+        border-collapse: collapse;
+      }
+
+      #bigCorrelation {
+        width: 500px;
+        height: 500px;
+      }
+
+      td {
+        border: 1px solid black;
+      }
+      td:hover {
+        background: pink;
+      }
+      .chart {
+        min-width: 100px;
+        max-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+        margin: 2px;
+      }
+      .label {
+        font-family: fantasy;
+        font-size: 1em;
+        text-align: center;
+      }
+
+      .correlationChartContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+      }
+      /* Trends */
+      .button {
+        position: relative;
+        background-color: #4CAF50;
+        border: none;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding: 8px;
+        text-align: center;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        margin: auto;
+        width: 180px;
+      }
+
+      .button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+
+      .button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+      }
+      #btn-group{
+        display: flex;
+        margin-bottom: 100px;
+      }
+    </style>
   </head>
-  <body>
+  <body onload = "init()">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-        <div class="center-block">
-          <h1 style="text-align: center;">Cars</h1>
-        </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <!-- 这里放三个view，排版到时麻烦坤力啦 -->
-          <div id="view1" style="width: 1200px;height:800px;" class="center-block"/>
-          <div id="view2" style="width: 1200px;height:800px;" class="center-block"/>
-          <div id="view3" style="width: 1200px;height:800px;" class="center-block"/>
-        </div>
-      </div>
+      <h1 style="text-align: center;">A visualization of global car characteristics between 1970 and 1982</h1>
     </div>
+    <p>
+      The data that we visualize here is the Auto MPG Data Set which contains 398 automobile records from 1970 to 1982 of US, Japan and Europe.
+      Each car is described by its model, region of production, year of production and 6 attributes: MPG (miles per gallon), number of cylinders, displacement, horsepower, weight, acceleration.
+    </p>
+    <p>
+      Below shows the correlation between the six attributes. Clicking on one of the graph shows a bigger detailed scatter plot.
+    </p>
+    <!-- Correlation -->
+    <div class="correlationChartContainer center-block">
+      <table id="correlationTable">
+        <tbody id="correlationMatrix"></tbody>
+      </table>
+      <div id="bigCorrelation"></div>
+    </div>
+    <p>
+      Below shows the evolution of each characteristic of car in each region along the years.
+    </p>
+    <!-- Trends -->
+    <div id="container"></div>
+    <div id="btn-group"></div>
+    <p>
+      Below shows the proportion of brands of cars produced in each origin.
+    </p>
+    <!-- Piechart -->
+    <div id="piechart" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
   </body>
-  <!-- 这里除了echarts也可以用其他的js库 -->
-  <script src="js/echarts.js"></script>
-  <script src="js/view1.js"></script>
-  <script src="js/view2.js"></script>
-  <script src="js/view3.js"></script>
+  <!--<script src="js/echarts.js"></script>-->
+  <script src="data/cars.js"></script>
+  <script src="src/correlation.js"></script>
+  <script src="src/tendence.js"></script>
+  <script src="src/piechart.js"></script>
+  <script>
+    function init() {
+      scatterPlot();
+      drawPieChart();
+    }
+  </script>
+</html>
+    <!-- Trends -->
+    <div id="container"></div>
+    <div id="btn-group"></div>
+    <!-- Piechart -->
+    <div id="piechart" style="min-width: 310px; height: 400px; max-width: 800px; margin: 0 auto"></div>
+  </body>
+  <!--<script src="js/echarts.js"></script>-->
+  <script src="data/cars.js"></script>
+  <script src="src/correlation.js"></script>
+  <script src="src/tendence.js"></script>
+  <script src="src/piechart.js"></script>
+  <script>
+    function init() {
+      scatterPlot();
+      drawPieChart();
+    }
+  </script>
 </html>

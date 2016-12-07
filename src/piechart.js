@@ -33,6 +33,9 @@ console.log(result.usSet.size);
 
 function drawPieChart() {
   Highcharts.chart('piechart', {
+          credits: {
+              enabled: false
+          },
           chart: {
               plotBackgroundColor: null,
               plotBorderWidth: null,
@@ -40,7 +43,7 @@ function drawPieChart() {
               type: 'pie'
           },
           title: {
-              text: 'Number of marks in each origin'
+              text: 'Proportion of brands in each origin'
           },
           tooltip: {
               pointFormat: '{series.name}: <b>{point.y}</b>'
@@ -63,12 +66,15 @@ function drawPieChart() {
               colorByPoint: true,
               data: [{
                   name: 'US',
+                  color: 'rgba(144, 237, 125, .8)',
                   y: result.usSet.size
               }, {
                   name: 'Europe',
+                  color: 'rgba(119, 152, 191, .8)',
                   y: result.euSet.size,
               }, {
                   name: 'Japan',
+                  color: 'rgba(247, 163, 92, .8)',
                   y: result.jpSet.size
               }]
           }]

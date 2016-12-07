@@ -24,8 +24,8 @@ let attrDesc = [
 //$('.chart').hide();
 //$('#MPGPerYear').show();
 
-let btnGroup = $('#btn-group');
-drawChart("MPGPerYear");
+let btnGroup=$('#btn-group');
+drawLineChart("MPGPerYear");
 
 attrDesc.forEach(function (x) {
     btnGroup.append(`<button id="btn_${x[0]}" class="button">${x[0]}</button>`);
@@ -34,7 +34,7 @@ attrDesc.forEach(function (x) {
 $('.button').on("click", function (e) {
     e.stopPropagation();
     let chartId = $(this)[0]['id'].slice(4);
-    drawChart(chartId);
+    drawLineChart(chartId);
 });
 
 
@@ -86,8 +86,8 @@ function getAttrPerYear(origin) {
 }
 
 
-function drawChart(chartId) {
-    let i = 0;
+function drawLineChart(chartId){
+    let i=0;
 
     for (i; i < attrDesc.length; i++) {
         if (attrDesc[i][0] === chartId) {
@@ -132,12 +132,15 @@ function drawChart(chartId) {
         },
         series: [{
             name: 'US',
+            color: 'rgba(144, 237, 125, .8)',
             data: USMPG[i]
         }, {
             name: 'Japan',
+            color: 'rgba(247, 163, 92, .8)',
             data: JapanMPG[i]
         }, {
             name: 'Europe',
+            color: 'rgba(119, 152, 191, .8)',
             data: EuropeMPG[i]
         }]
     });

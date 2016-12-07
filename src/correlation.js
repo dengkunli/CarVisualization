@@ -1,6 +1,14 @@
-function drawChart() {
+function scatterPlot() {
     // reformat data
     const Attributes = ["MPG", "Cylinders", "Displacement", "Horsepower", "Weight", "Acceleration"];
+    const desc = [
+        "Miles per gallon (M/gal)",
+        "Cylinders (n)",
+        "Displacement (cc)",
+        "Horsepower (hp)",
+        "Weight (kg)",
+        "Acceleration (m/s)"
+    ];
     const [MPG, Cylinders, Displacement, Horsepower, Weight, Acceleration] = Attributes;
 
     const mat = data.map((record) => {
@@ -87,7 +95,7 @@ function drawChart() {
                 visible: false,
                 title: {
                     enabled: true,
-                    text: Attributes[j]
+                    text: desc[j]
                 },
                 startOnTick: true,
                 endOnTick: true,
@@ -96,7 +104,7 @@ function drawChart() {
             yAxis: {
                 visible: false,
                 title: {
-                    text: Attributes[i]
+                    text: desc[i]
                 }
             },
             legend: {
@@ -155,7 +163,7 @@ function drawChart() {
                 visible: true,
                 title: {
                     enabled: true,
-                    text: Attributes[j]
+                    text: desc[j]
                 },
                 startOnTick: true,
                 endOnTick: true,
@@ -164,7 +172,7 @@ function drawChart() {
             yAxis: {
                 visible: true,
                 title: {
-                    text: Attributes[i]
+                    text: desc[i]
                 }
             },
             plotOptions: {
