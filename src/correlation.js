@@ -1,3 +1,4 @@
+// draw a scatter plot
 function scatterPlot() {
     // reformat data
     const Attributes = ["MPG", "Cylinders", "Displacement", "Horsepower", "Weight", "Acceleration"];
